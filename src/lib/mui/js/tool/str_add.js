@@ -9,6 +9,12 @@ function strAdd(str){
   }
   console.log(sum)
 }
-strAdd(str)
+// strAdd(str)
 
 
+
+
+var arr1 = str.trim().split(' ');
+
+
+console.log( eval(arr1.join("+")));
